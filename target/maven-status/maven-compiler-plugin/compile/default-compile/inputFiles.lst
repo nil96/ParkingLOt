@@ -1,1 +1,13 @@
-/Users/sunilsingh.r/Flipkart/parkinglot/src/main/java/flipcart/App.java
+/home/nil96/Desktop/parkinglot/src/main/java/Actions/IParkingStrategy.java
+/home/nil96/Desktop/parkinglot/src/main/java/flipcart/App.java
+/home/nil96/Desktop/parkinglot/src/main/java/enums/Command.java
+/home/nil96/Desktop/parkinglot/src/main/java/model/Car.java
+/home/nil96/Desktop/parkinglot/src/main/java/Exceptions/VehicleAlreadyPresent.java
+/home/nil96/Desktop/parkinglot/src/main/java/Exceptions/UnavailableSlot.java
+/home/nil96/Desktop/parkinglot/src/main/java/model/ParkingLot.java
+/home/nil96/Desktop/parkinglot/src/main/java/model/IVehicle.java
+/home/nil96/Desktop/parkinglot/src/main/java/Actions/NearestParkingSlot.java
+/home/nil96/Desktop/parkinglot/src/main/java/enums/ParkingStatus.java
+/home/nil96/Desktop/parkinglot/src/main/java/Service/ParkingService.java
+/home/nil96/Desktop/parkinglot/src/main/java/model/ParkingSpot.java
+/home/nil96/Desktop/parkinglot/src/main/java/enums/TypeOfParking.java

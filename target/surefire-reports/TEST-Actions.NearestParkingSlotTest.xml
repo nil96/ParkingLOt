@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="flipcart.AppTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Actions.NearestParkingSlotTest" time="0.073" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -58,5 +58,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="flipcart.AppTest" time="0"/>
+  <testcase name="removeSlot1" classname="Actions.NearestParkingSlotTest" time="0.004"/>
+  <testcase name="getParkingSpots" classname="Actions.NearestParkingSlotTest" time="0.001"/>
+  <testcase name="getSlot" classname="Actions.NearestParkingSlotTest" time="0.001"/>
+  <testcase name="add" classname="Actions.NearestParkingSlotTest" time="0.002"/>
+  <testcase name="add1" classname="Actions.NearestParkingSlotTest" time="0.001"/>
+  <testcase name="getParkingLot" classname="Actions.NearestParkingSlotTest" time="0"/>
+  <testcase name="setParkingSpots" classname="Actions.NearestParkingSlotTest" time="0"/>
+  <testcase name="removeSlot" classname="Actions.NearestParkingSlotTest" time="0"/>
+  <testcase name="setParkingLot" classname="Actions.NearestParkingSlotTest" time="0.001"/>
 </testsuite>

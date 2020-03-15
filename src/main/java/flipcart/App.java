@@ -31,12 +31,13 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println("********************************************************");
-        System.out.println("                Parking App is up\n");
-        System.out.println("********************************************************");
+        System.out.println("**********************************************************************************************************************************************\n\n\n");
+        System.out.println("                                                  Parking App is up\n\n\n");
+        System.out.println("                                                  Please Enter 'exit' to end Execution");
+        System.out.println("*********************************************************************************************************************************************");
         ParkingService parkingService = null;
         String query = "";
-        System.out.println("Please Enter 'exit' to end Execution");
+       
         System.out.println("Input:");
         while (true) {
             try {
