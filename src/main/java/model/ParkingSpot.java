@@ -6,22 +6,22 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.xml.crypto.Data;
 import java.util.Date;
 
 
 @Getter
 @Setter
-public class ParkingLot {
-       long id;
+public class ParkingSpot {
+       int id;
 
        IVehicle vehicle;
 
-       ParkingStatus parkingStatus;
+       @Builder.Default
+       ParkingStatus parkingStatus = ParkingStatus.VACANT;
 
        Date startTime;
 
-       Data endTime;
+       Date endTime;
 
        @Builder.Default
        TypeOfParking typeOfParking = TypeOfParking.ECONOMIC;

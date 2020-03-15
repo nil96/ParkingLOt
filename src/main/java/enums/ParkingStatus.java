@@ -1,15 +1,17 @@
-package Enums;
+package enums;
 
 public enum ParkingStatus {
-       MAINTENANCE("MAINTENANCE"),
-       FILLED("FILLED"),
-       VACANT("VACANT");
+    MAINTENANCE("MAINTENANCE"),
+    FILLED("FILLED"),
+    VACANT("VACANT");
 
-       private final String status;
-       ParkingStatus(String status){
-           this.status = status;
-       }
-       public String toString(){
+    private final String status;
+
+    ParkingStatus(String status) {
+        this.status = status;
+    }
+
+    public String toString() {
         return status;
     }
 }

@@ -1,7 +1,7 @@
 package Exceptions;
 
-public class NoVacantSpaceException extends RuntimeException {
-    public NoVacantSpaceException(String message){
+public class UnavailableSlot extends Exception {
+    public UnavailableSlot(String message) {
         super(message);
     }
 }
